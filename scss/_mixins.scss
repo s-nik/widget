@@ -1,0 +1,16 @@
+@mixin tr {
+	transition: all .4s linear;
+}
+
+@mixin myPos($top: 50%, $left: 50%, $tx: -50%, $ty: -50%) {
+	position: absolute;
+	top: $top;
+	left: $left;
+	transform: translate($tx, $ty);
+}
+
+@mixin align($mh:3em) {
+		text-align: center;
+		max-height: $mh;
+		overflow: hidden;
+}
