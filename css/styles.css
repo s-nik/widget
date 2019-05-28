@@ -760,8 +760,6 @@ body {
 .channels {
   margin-bottom: -1px;
   overflow: hidden; }
-  .channels .films__title {
-    width: 120%; }
   .channels__title {
     font-size: 7.2rem;
     font-weight: bold;
@@ -844,6 +842,9 @@ body {
       width: 45%; }
       .channels__wrap--films > img {
         max-width: 120%; }
+
+.films__title {
+  width: 115%; }
 
 .owl-carousel-channels {
   margin-bottom: 72px; }

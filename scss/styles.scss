@@ -444,9 +444,6 @@ body {
 .channels {
 	margin-bottom: -1px;
 	overflow: hidden;
-	.films__title {
-		width: 120%;
-	}
 	&__title {
 		font-size: 7.2rem;
 		font-weight: bold;
@@ -542,6 +539,10 @@ body {
 			}
 		}
 	}
+}
+
+.films__title {
+	width: 115%;
 }
 
 //SLIDERS
