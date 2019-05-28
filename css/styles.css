@@ -846,7 +846,7 @@ body {
         max-width: 120%; }
 
 .owl-carousel-channels {
-  margin-bottom: 40px; }
+  margin-bottom: 72px; }
   .owl-carousel-channels__text {
     font-size: 1.6rem;
     color: #053545;
@@ -879,7 +879,7 @@ body {
       height: auto; }
   .owl-carousel-channels .owl-nav {
     position: absolute;
-    top: 30%;
+    top: 38%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -944,7 +944,8 @@ body {
       background-position: 60% 50%; }
 
 .owl-carousel-films {
-  position: relative; }
+  position: relative;
+  margin-bottom: 32px; }
 
 .owl-carousel-films .owl-nav {
   position: absolute;
@@ -1019,7 +1020,7 @@ body {
   font-size: 1.6rem;
   font-weight: bold;
   color: #323e4d;
-  padding-left: 20px; }
+  padding-left: 5px; }
 
 .films {
   background-color: #2eb8c5;
@@ -1063,31 +1064,13 @@ body {
   .promo__about {
     margin-top: 30px; }
   .owl-carousel-channels .owl-nav {
-    top: 123%;
+    top: 100%;
+    margin-top: 102px;
     width: 100%; }
-  .owl-carousel-channels .owl-prev {
-    -webkit-transform: translate(250%, 10px);
-    -ms-transform: translate(250%, 10px);
-    -o-transform: translate(250%, 10px);
-    transform: translate(250%, 10px); }
-  .owl-carousel-channels .owl-next {
-    -webkit-transform: translate(-250%, 10px);
-    -ms-transform: translate(-250%, 10px);
-    -o-transform: translate(-250%, 10px);
-    transform: translate(-250%, 10px); }
   .owl-carousel-films .owl-nav {
-    top: 104%;
-    width: 100%; }
-  .owl-carousel-films .owl-prev {
-    -webkit-transform: translate(250%, 10px);
-    -ms-transform: translate(250%, 10px);
-    -o-transform: translate(250%, 10px);
-    transform: translate(250%, 10px); }
-  .owl-carousel-films .owl-next {
-    -webkit-transform: translate(-250%, 10px);
-    -ms-transform: translate(-250%, 10px);
-    -o-transform: translate(-250%, 10px);
-    transform: translate(-250%, 10px); } }
+    top: 100%;
+    margin-top: 65px;
+    width: 90%; } }
 
 @media screen and (max-width: 1480px) {
   .promo__block {
@@ -1103,7 +1086,8 @@ body {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    top: 170%;
+    top: 100%;
+    margin-top: 380px;
     left: 50%; }
   .promo__about {
     -webkit-transform: translate(-50%, -50%);
@@ -1134,6 +1118,8 @@ body {
     left: 50%; }
   .promo__about {
     height: 160px; }
+  .promo__promo {
+    margin-top: 310px; }
   .promo__about > p {
     font-size: 2.8rem; }
   .gadgets__block {
@@ -1148,11 +1134,10 @@ body {
     font-size: 6rem; } }
 
 @media screen and (max-width: 991px) {
-  .owl-carousel-films .owl-nav {
-    width: 120vw; }
-  .owl-carousel-channels .owl-nav {
-    top: 123%;
-    width: 130vw; } }
+  .owl-carousel-films .slider-films__text {
+    font-size: 1.2rem; }
+  .gadgets__info {
+    margin-top: 50px; } }
 
 @media screen and (max-width: 768px) {
   .promo__block {
@@ -1165,17 +1150,26 @@ body {
     left: 50%;
     top: -40%; }
   .promo__about {
-    top: 120%;
+    top: 100%;
+    margin-top: 90px;
     height: 160px; }
   .promo__about > p {
     font-size: 2.8rem; }
   .promo__promo {
-    font-size: 3rem; }
+    font-size: 3rem;
+    margin-top: 200px; }
   .promo__link {
     font-size: 2.8rem;
     height: 40px;
     width: 300px;
     line-height: 27px; }
+  .gadgets {
+    padding-bottom: 120px; }
+  .gadgets__title {
+    font-size: 5rem;
+    margin-bottom: 20px; }
+  .gadgets__i-wrap {
+    height: 20vh; }
   .channels__title {
     font-size: 3.0rem;
     padding: 20px 0;
@@ -1211,8 +1205,7 @@ body {
   .gadgets__info {
     margin-top: 30px; }
   .owl-carousel-films .owl-nav {
-    top: 102%;
-    width: 105vw; }
+    margin-top: 52px; }
   .owl-carousel-films .owl-prev > span,
   .owl-carousel-films .owl-next > span {
     width: 40px;
@@ -1238,8 +1231,7 @@ body {
       width: 40px;
       background-size: 50%; }
   .owl-carousel-channels .owl-nav {
-    top: 119%;
-    width: 90vw; }
+    margin-top: 91px; }
   .channels__wrap:not(.channels__wrap--films) > img {
     top: 15px; }
   .channels__wrap--films {
@@ -1293,12 +1285,13 @@ body {
   .promo__block {
     margin-bottom: 220px; }
   .promo__about {
-    top: 120%;
+    top: 90%;
     height: 90px; }
   .promo__about > p {
     font-size: 1.6rem; }
   .promo__promo {
-    top: 155%; }
+    top: 100%;
+    margin-top: 130px; }
   .gadgets {
     margin-top: 30px;
     padding-bottom: 0; }
@@ -1333,12 +1326,14 @@ body {
     order: 2;
     left: 0;
     height: 35vh; }
-  .owl-carousel-films .owl-nav {
-    width: 115vw; }
+  .channels__text-box {
+    padding: 0; }
+  .channels__about {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
   .owl-carousel-films .slider-films__text {
-    font-size: 1.2rem; }
-  .owl-carousel-channels .owl-nav {
-    width: 115vw; } }
+    font-size: 1.2rem; } }
 
 @media screen and (max-width: 530px) {
   .promo__title {
@@ -1348,26 +1343,7 @@ body {
   .channels__wrap {
     height: 30vh; }
   .channels__wrap:not(.channels__wrap--films) > img {
-    top: 0; } }
-
-@media screen and (max-width: 430px) {
-  .promo__block {
-    margin-bottom: 210px;
-    margin-top: 50px; }
-  .promo__title {
-    font-size: 1.6rem;
-    height: 45px;
-    line-height: 45px;
-    left: 50%;
-    top: -50%; }
-  .promo__about {
-    top: 120%;
-    height: 100px; }
-  .promo__about > p {
-    font-size: 1.6rem; }
-  .promo__promo {
-    top: 180%;
-    width: 100%; }
+    top: 0; }
   .promo__link {
     font-size: 1.6rem;
     height: 30px;
@@ -1375,16 +1351,31 @@ body {
     line-height: 17px; }
   .promo__text {
     font-size: 1.6rem; }
-  .owl-carousel-films .owl-nav {
-    width: 140vw;
-    top: 103%; }
-  .owl-carousel-channels .owl-nav {
-    width: 135vw; }
+  .promo__block {
+    margin-bottom: 190px;
+    margin-top: 50px; }
+  .promo__promo {
+    margin-top: 110px; } }
+
+@media screen and (max-width: 430px) {
+  .promo__block {
+    margin-bottom: 210px;
+    margin-top: 70px; }
+  .promo__title {
+    font-size: 1.6rem;
+    height: 45px;
+    line-height: 45px;
+    left: 50%;
+    top: -50%; }
+  .promo__about {
+    top: 100%;
+    margin-top: 70px;
+    height: 100px; }
+  .promo__about > p {
+    font-size: 1.6rem; }
+  .promo__promo {
+    top: 100%;
+    margin-top: 130px;
+    width: 100%; }
   .channels__link {
     font-size: 1.4rem; } }
-
-@media screen and (max-width: 350px) {
-  .owl-carousel-films .owl-nav {
-    width: 155vw; }
-  .owl-carousel-channels .owl-nav {
-    width: 155vw; } }
